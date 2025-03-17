@@ -1,0 +1,7 @@
+html, body {
+    font-family: 'Athiti', sans-serif;
+}
+
+.error-msg {
+    color: rgb(172, 0, 0);
+}

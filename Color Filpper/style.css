@@ -1,0 +1,10 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.centered{
+    
+    position: absolute; /* or  */
+    top: 50%;
+    left: 15%;
+}

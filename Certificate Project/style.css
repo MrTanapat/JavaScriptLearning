@@ -1,0 +1,11 @@
+html, body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: aliceblue
+}
+.border-custom{
+    height: 350px;
+}
+
+form {
+    background-color: snow
+}
