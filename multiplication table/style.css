@@ -1,7 +1,39 @@
-html, body {
-    font-family: 'Athiti', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wdth,wght@62.5..100,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Noto Sans Thai', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    background-color: #f0f4f8;
 }
 
-.error-msg {
-    color: rgb(172, 0, 0);
+.container {
+    width: 40vh;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 3px 3px 5px #aaaaaa;
+}
+
+.form-control{
+    font-family: 'Noto Sans Thai', sans-serif;
+    width: 80%;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.btnResult {
+    font-family: 'Noto Sans Thai', sans-serif;
+    padding: 3px 25px;
+    font-size: 1em;
+    border: 1px solid;
+    border-radius: 5px;
 }
