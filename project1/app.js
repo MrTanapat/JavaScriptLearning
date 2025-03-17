@@ -7,10 +7,9 @@ if(lotto_number == random_number) {
     document.getElementById("result").innerHTML = "ยินดีด้วยคุณถูกรางวัลเลขท้าย 2 ตัว"
 }
 else {
-    document.getElementById("result").innerHTML = "เสียใจด้วยคุณไม่รางวัล"
+    document.getElementById("result").innerHTML = "เสียใจด้วยคุณไม่รางวัล :("
 }
 
-let age = prompt ("อายุของคุณ : ")
 if(age == 12) {
     console
 }
