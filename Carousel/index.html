@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="car">
+        <div class="img-wrap">
+            <img src="https://picsum.photos/600?random=1" alt="img1">
+            <img src="https://picsum.photos/600?random=2" alt="img2">
+            <img src="https://picsum.photos/600?random=3" alt="img3">
+            <img src="https://picsum.photos/600?random=4" alt="img4">
+        </div>
+        <button class="btn prev">‹</button>
+        <button class="btn next">›</button>
+
+        <div class="dots">
+            <span class="dot active" data-index="0" style="background-image: url('https://picsum.photos/600?random=1');"></span>
+            <span class="dot" data-index="1" style="background-image: url('https://picsum.photos/600?random=2');"></span>
+            <span class="dot" data-index="2" style="background-image: url('https://picsum.photos/600?random=3');"></span>
+            <span class="dot" data-index="3" style="background-image: url('https://picsum.photos/600?random=4');"></span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+}
+
+.car {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    border: 1px solid rgba(0 ,0 ,0 , 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0 ,0 ,0 , 0.8);
+}
+
+.img-wrap {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.img-wrap img {
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0 ,0 ,0 , 0.5);
+    color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgba(0 ,0 ,0 , 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.dots {
+    padding: 5px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+  
+.dot {
+    position: relative;
+    display: inline-block;
+    width: 50px; 
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+  
+.dot.active {
+    opacity: 0.7;
+}
+  
+.dot:hover {
+    opacity: 1;
+}
