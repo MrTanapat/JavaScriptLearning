@@ -1,10 +1,73 @@
-html, body {
-    font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wdth,wght@62.5..100,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-family: "Noto Sans Thai", sans-serif;
 }
 
-.centered{
-    
-    position: absolute; /* or  */
-    top: 50%;
-    left: 15%;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+}
+
+.navbar {
+    background: #2e2e2e;
+    color: #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarBrand {
+    margin: 20px;
+}
+
+.navList {
+    display: flex;
+    gap: 20px;
+    padding: 0 40px;
+}
+
+.navItem {
+    list-style: none;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.navItem a:hover {
+    color: #8f8f8f;
+    transition: .3s;
+}
+
+.btn {
+    background-color: #fcffe1;
+    color: #2e2e2e;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+    background-color: #fffff3;
+    transition: .3s;
+}
+
+.btn:active {
+    transform: scale(0.95);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
